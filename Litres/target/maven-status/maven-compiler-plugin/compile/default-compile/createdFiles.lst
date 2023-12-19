@@ -1,0 +1,14 @@
+com\example\Litres\Repository\BooksRepository.class
+com\example\Litres\config\SecurityConfig.class
+com\example\Litres\Controller\LoginController.class
+com\example\Litres\Controller\RegController.class
+com\example\Litres\LitresApplication.class
+com\example\Litres\Controller\SecretController.class
+com\example\Litres\config\WebSecurityConfig.class
+com\example\Litres\Model\Book.class
+com\example\Litres\service\UserService.class
+com\example\Litres\Controller\UserController.class
+com\example\Litres\Controller\IndexController.class
+com\example\Litres\Model\Role.class
+com\example\Litres\Model\User.class
+com\example\Litres\Repository\UsersRepository.class

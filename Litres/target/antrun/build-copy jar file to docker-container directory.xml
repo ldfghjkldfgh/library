@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="copy jar file to docker-container directory">
+  <target name="copy jar file to docker-container directory">
+    <copy todir="../docker-compose/docker/java/">
+      <fileset dir="C:\Users\Stanislav\IdeaProjects\SaPE\litresSaPE\Litres\target">
+        <include name="*.jar" />
+      </fileset>
+    </copy>
+  </target>
+</project>
