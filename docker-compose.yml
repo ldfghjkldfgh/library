@@ -1,0 +1,20 @@
+version: "3"
+services:
+  java:
+    build: ./
+    container_name: java
+    ports:
+      - "8080:8080"
+    depends_on:
+      - database
+
+  database:
+    image: postgres:alpine3.17
+    container_name: database
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "rootuser"
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d
+    ports:
+      - "5432:5432"
